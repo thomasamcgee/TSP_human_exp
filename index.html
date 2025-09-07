@@ -920,7 +920,7 @@
 
     // Map number of cities to seconds 
     function getTrialLimitMsFromCities(count) {
-      const secsByCities = { 4: 60, 5: 60, 6: 60 }; // seconds
+      const secsByCities = { 4: 240, 5: 300, 6: 360 }; // seconds
       const seconds = secsByCities[count] ?? 15;   // fallback
       return seconds * 1000;
     }
@@ -1798,3 +1798,4 @@
   </footer>
 </body>
 </html>
+
